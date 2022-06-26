@@ -4,18 +4,7 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
-// You can also log multiple values at once like this
-console.log(playerName, playerHealth, playerAttack);
-
-
 var enemyName = ["Roborto", "Amy Android", "Robo Trumble"];
-
-for(var i = 0; i < enemyName.length; i++){
-    console.log(enemyName[i]);
-    console.log(i);
-    console.log(enemyName[i] + " is at " + i + " index");
-}
-
 var enemyHealth = 50;
 var enemyAttack = 12;
 
